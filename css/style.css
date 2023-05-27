@@ -488,7 +488,7 @@ img{
 /* Intro start */
 .intro{
     min-height: 100vh;
-    background: url(../img/intro-bg.jpg) no-repeat center;
+    background: url(../img/intro-bg-min.jpg) no-repeat center;
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 100px;
@@ -611,7 +611,7 @@ img{
 
 /* Afisha start */
 .afisha{
-    background: url(../img/afisha-pic.png) no-repeat right;
+    background: url(../img/afisha-pic-min.png) no-repeat right;
 }
 
 .afisha__cards{
@@ -753,7 +753,7 @@ img{
 
     .intro{
         min-height: 100vh;
-        background: url(../img/intro-bg.jpg) no-repeat center;
+        background: url(../img/intro-bg-min.jpg) no-repeat center;
         background-size: cover;
     }
 
@@ -986,5 +986,4 @@ img{
         padding: 75px 30px;
     }
 }
-
 /* Media end */
