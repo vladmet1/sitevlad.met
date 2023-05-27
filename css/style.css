@@ -617,6 +617,10 @@ img{
     grid-template-columns: repeat(2, 1fr);
 }
 
+.afisha__card{
+    margin-bottom: 80px;
+}
+
 .afisha__card__date{
     font-size: 25px;
     font-weight: 700;
@@ -624,10 +628,16 @@ img{
     text-transform: uppercase;
 }
 
-.afisha__card__town, .afisha__card__loc{
+.afisha__card__town{
     font-size: 25px;
     font-weight: 400;
     margin-bottom: 10px;
+}
+
+.afisha__card__loc{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
 
 .afisha__button{
@@ -764,6 +774,11 @@ img{
 
     .music__cards{
         column-gap: 20px;
+    }
+
+    .music__card{
+        display: flex;
+        flex-direction: column;
     }
 
     .music__button__link{
@@ -944,6 +959,7 @@ img{
 
     .afisha__card{
         grid-column: span 4;
+        margin-bottom: 40px;
     }
 
     .afisha__card__date{
@@ -954,8 +970,11 @@ img{
         margin-bottom: 0px;
     }
 
+    .afisha__card__loc{
+        margin-bottom: 15px;
+    }
+
     .afisha__button{
-        margin-bottom: 25px;
         padding: 10px 15px;
     }
 
