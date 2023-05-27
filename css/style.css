@@ -611,7 +611,7 @@ img{
 
 /* Afisha start */
 .afisha{
-    background: url(/img/afisha-pic.png) no-repeat right;
+    background: url(../img/afisha-pic.png) no-repeat right;
 }
 
 .afisha__cards{
